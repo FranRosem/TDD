@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <h1>Sales Totalizer Ssis</h1>
+    <form id="calculate-form">
+      <label for="quantity">Quantity: </label>
+      <input type="number" id="quantity" />
+      <label for="price">Price: </label>
+      <input type="number" id="price" />
+      <label for="state" class="selector">State: </label>
+        <select id="state">
+          <option value="UT">UT</option>
+          <option value="NV">NV</option>
+          <option value="TX">TX</option>
+          <option value="AL">AL</option>
+          <option value="CA">CA</option>
+        </select>
+      <input type="submit" value="Calculate Total" />
+    </form>
+    <div id="result-div"></div>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
